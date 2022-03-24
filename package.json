@@ -1,0 +1,34 @@
+{
+  "name": "node-heroku-project",
+  "version": "1.0.0",
+  "description": "Node/express server w/graphQL, postgreSQL Db, redis and heroku ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerome0caruso/node-heroku-project-1.git"
+  },
+  "keywords": [
+    "Git",
+    "Node",
+    "Express",
+    "Redis",
+    "PostgreSQL",
+    "Heroku",
+    "GraphQL",
+    "CI/CD",
+    "Splunk"
+  ],
+  "author": "Jerome Caruso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerome0caruso/node-heroku-project-1/issues"
+  },
+  "homepage": "https://github.com/jerome0caruso/node-heroku-project-1#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
