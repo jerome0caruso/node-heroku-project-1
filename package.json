@@ -29,8 +29,11 @@
   },
   "homepage": "https://github.com/jerome0caruso/node-heroku-project-1#readme",
   "dependencies": {
+    "apollo-server": "^3.6.6",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "graphql": "^16.3.0",
     "nodemon": "^2.0.15"
   }
 }
