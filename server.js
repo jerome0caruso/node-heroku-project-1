@@ -9,8 +9,7 @@ dotenv.config();
 
 const jsonParser = bodyParser.json();
 app.use(cors());
-
-console.log(process.env.TEST)
+app.use(express.static("public"));
 
 app.get('/', (req, res) =>
     res.status(200).send("The server is up and running")
